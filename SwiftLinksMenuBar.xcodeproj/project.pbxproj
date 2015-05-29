@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		886EE04C1B1753FD0086ED71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886EE04B1B1753FD0086ED71 /* AppDelegate.swift */; };
+		886EE04E1B1753FD0086ED71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886EE04D1B1753FD0086ED71 /* Images.xcassets */; };
+		886EE0511B1753FD0086ED71 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886EE04F1B1753FD0086ED71 /* MainMenu.xib */; };
+		886EE05D1B1753FE0086ED71 /* SwiftLinksMenuBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886EE05C1B1753FE0086ED71 /* SwiftLinksMenuBarTests.swift */; };
+		886EE06A1B17570E0086ED71 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 886EE0691B17570E0086ED71 /* PodFile */; };
+		88E3E37F1B175F0400A7B07D /* links.json in Resources */ = {isa = PBXBuildFile; fileRef = 88E3E37E1B175F0300A7B07D /* links.json */; };
+		A528B7895E952C60DC37A93A /* Pods_SwiftLinksMenuBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7FF445DD3865F178B8C0FA /* Pods_SwiftLinksMenuBar.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		886EE0571B1753FE0086ED71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 886EE03E1B1753FD0086ED71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 886EE0451B1753FD0086ED71;
+			remoteInfo = SwiftLinksMenuBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D217A1E2C29B3CD46597D41 /* Pods-SwiftLinksMenuBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLinksMenuBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLinksMenuBar/Pods-SwiftLinksMenuBar.release.xcconfig"; sourceTree = "<group>"; };
+		577C6D2ABB08D5394BFAE1D4 /* Pods-SwiftLinksMenuBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLinksMenuBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLinksMenuBar/Pods-SwiftLinksMenuBar.debug.xcconfig"; sourceTree = "<group>"; };
+		6C7FF445DD3865F178B8C0FA /* Pods_SwiftLinksMenuBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLinksMenuBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		886EE0461B1753FD0086ED71 /* SwiftLinksMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLinksMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		886EE04A1B1753FD0086ED71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886EE04B1B1753FD0086ED71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		886EE04D1B1753FD0086ED71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		886EE0501B1753FD0086ED71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		886EE0561B1753FE0086ED71 /* SwiftLinksMenuBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLinksMenuBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		886EE05B1B1753FE0086ED71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886EE05C1B1753FE0086ED71 /* SwiftLinksMenuBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLinksMenuBarTests.swift; sourceTree = "<group>"; };
+		886EE0661B1754780086ED71 /* SwiftLinksMenuBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SwiftLinksMenuBar.entitlements; sourceTree = "<group>"; };
+		886EE0691B17570E0086ED71 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88E3E37E1B175F0300A7B07D /* links.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = links.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		886EE0431B1753FD0086ED71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A528B7895E952C60DC37A93A /* Pods_SwiftLinksMenuBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886EE0531B1753FE0086ED71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F21B35466AB64C6E6AC38B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C7FF445DD3865F178B8C0FA /* Pods_SwiftLinksMenuBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		886EE03D1B1753FD0086ED71 = {
+			isa = PBXGroup;
+			children = (
+				886EE0691B17570E0086ED71 /* PodFile */,
+				886EE0481B1753FD0086ED71 /* SwiftLinksMenuBar */,
+				886EE0591B1753FE0086ED71 /* SwiftLinksMenuBarTests */,
+				886EE0471B1753FD0086ED71 /* Products */,
+				E7CD5ADF67CCA47827CEDFA1 /* Pods */,
+				02F21B35466AB64C6E6AC38B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		886EE0471B1753FD0086ED71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				886EE0461B1753FD0086ED71 /* SwiftLinksMenuBar.app */,
+				886EE0561B1753FE0086ED71 /* SwiftLinksMenuBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		886EE0481B1753FD0086ED71 /* SwiftLinksMenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				88E3E37E1B175F0300A7B07D /* links.json */,
+				886EE0661B1754780086ED71 /* SwiftLinksMenuBar.entitlements */,
+				886EE04B1B1753FD0086ED71 /* AppDelegate.swift */,
+				886EE04D1B1753FD0086ED71 /* Images.xcassets */,
+				886EE04F1B1753FD0086ED71 /* MainMenu.xib */,
+				886EE0491B1753FD0086ED71 /* Supporting Files */,
+			);
+			path = SwiftLinksMenuBar;
+			sourceTree = "<group>";
+		};
+		886EE0491B1753FD0086ED71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				886EE04A1B1753FD0086ED71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		886EE0591B1753FE0086ED71 /* SwiftLinksMenuBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				886EE05C1B1753FE0086ED71 /* SwiftLinksMenuBarTests.swift */,
+				886EE05A1B1753FE0086ED71 /* Supporting Files */,
+			);
+			path = SwiftLinksMenuBarTests;
+			sourceTree = "<group>";
+		};
+		886EE05A1B1753FE0086ED71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				886EE05B1B1753FE0086ED71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7CD5ADF67CCA47827CEDFA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				577C6D2ABB08D5394BFAE1D4 /* Pods-SwiftLinksMenuBar.debug.xcconfig */,
+				2D217A1E2C29B3CD46597D41 /* Pods-SwiftLinksMenuBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		886EE0451B1753FD0086ED71 /* SwiftLinksMenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886EE0601B1753FE0086ED71 /* Build configuration list for PBXNativeTarget "SwiftLinksMenuBar" */;
+			buildPhases = (
+				B64A485248DB8E4C1057CCC3 /* Check Pods Manifest.lock */,
+				886EE0421B1753FD0086ED71 /* Sources */,
+				886EE0431B1753FD0086ED71 /* Frameworks */,
+				886EE0441B1753FD0086ED71 /* Resources */,
+				5D283753EBAEB05E915E7ECB /* Embed Pods Frameworks */,
+				9A8AA45A0ADB3DB091D2F900 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLinksMenuBar;
+			productName = SwiftLinksMenuBar;
+			productReference = 886EE0461B1753FD0086ED71 /* SwiftLinksMenuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		886EE0551B1753FE0086ED71 /* SwiftLinksMenuBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886EE0631B1753FE0086ED71 /* Build configuration list for PBXNativeTarget "SwiftLinksMenuBarTests" */;
+			buildPhases = (
+				886EE0521B1753FE0086ED71 /* Sources */,
+				886EE0531B1753FE0086ED71 /* Frameworks */,
+				886EE0541B1753FE0086ED71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				886EE0581B1753FE0086ED71 /* PBXTargetDependency */,
+			);
+			name = SwiftLinksMenuBarTests;
+			productName = SwiftLinksMenuBarTests;
+			productReference = 886EE0561B1753FE0086ED71 /* SwiftLinksMenuBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		886EE03E1B1753FD0086ED71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Timothy Dang";
+				TargetAttributes = {
+					886EE0451B1753FD0086ED71 = {
+						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					886EE0551B1753FE0086ED71 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 886EE0451B1753FD0086ED71;
+					};
+				};
+			};
+			buildConfigurationList = 886EE0411B1753FD0086ED71 /* Build configuration list for PBXProject "SwiftLinksMenuBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 886EE03D1B1753FD0086ED71;
+			productRefGroup = 886EE0471B1753FD0086ED71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				886EE0451B1753FD0086ED71 /* SwiftLinksMenuBar */,
+				886EE0551B1753FE0086ED71 /* SwiftLinksMenuBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		886EE0441B1753FD0086ED71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886EE06A1B17570E0086ED71 /* PodFile in Resources */,
+				886EE04E1B1753FD0086ED71 /* Images.xcassets in Resources */,
+				886EE0511B1753FD0086ED71 /* MainMenu.xib in Resources */,
+				88E3E37F1B175F0400A7B07D /* links.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886EE0541B1753FE0086ED71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D283753EBAEB05E915E7ECB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLinksMenuBar/Pods-SwiftLinksMenuBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A8AA45A0ADB3DB091D2F900 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLinksMenuBar/Pods-SwiftLinksMenuBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B64A485248DB8E4C1057CCC3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		886EE0421B1753FD0086ED71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886EE04C1B1753FD0086ED71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886EE0521B1753FE0086ED71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886EE05D1B1753FE0086ED71 /* SwiftLinksMenuBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		886EE0581B1753FE0086ED71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 886EE0451B1753FD0086ED71 /* SwiftLinksMenuBar */;
+			targetProxy = 886EE0571B1753FE0086ED71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		886EE04F1B1753FD0086ED71 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				886EE0501B1753FD0086ED71 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		886EE05E1B1753FE0086ED71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		886EE05F1B1753FE0086ED71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		886EE0611B1753FE0086ED71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577C6D2ABB08D5394BFAE1D4 /* Pods-SwiftLinksMenuBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftLinksMenuBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		886EE0621B1753FE0086ED71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D217A1E2C29B3CD46597D41 /* Pods-SwiftLinksMenuBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftLinksMenuBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		886EE0641B1753FE0086ED71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftLinksMenuBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLinksMenuBar.app/Contents/MacOS/SwiftLinksMenuBar";
+			};
+			name = Debug;
+		};
+		886EE0651B1753FE0086ED71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftLinksMenuBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLinksMenuBar.app/Contents/MacOS/SwiftLinksMenuBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		886EE0411B1753FD0086ED71 /* Build configuration list for PBXProject "SwiftLinksMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886EE05E1B1753FE0086ED71 /* Debug */,
+				886EE05F1B1753FE0086ED71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886EE0601B1753FE0086ED71 /* Build configuration list for PBXNativeTarget "SwiftLinksMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886EE0611B1753FE0086ED71 /* Debug */,
+				886EE0621B1753FE0086ED71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886EE0631B1753FE0086ED71 /* Build configuration list for PBXNativeTarget "SwiftLinksMenuBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886EE0641B1753FE0086ED71 /* Debug */,
+				886EE0651B1753FE0086ED71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 886EE03E1B1753FD0086ED71 /* Project object */;
+}

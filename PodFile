@@ -1,0 +1,7 @@
+platform :osx, '10.10'
+use_frameworks!
+
+target 'SwiftLinksMenuBar' do
+  pod 'SwiftyJSON', '~> 2.1'
+end
+
