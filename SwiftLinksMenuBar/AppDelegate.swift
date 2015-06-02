@@ -40,6 +40,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let icon = NSImage(named: "statusIcon")
         icon?.setTemplate(true)
         self.statusBarItem.image = icon
+
+        NSApp.setActivationPolicy(NSApplicationActivationPolicy.Accessory)
         
         parseJson()
         initMenu()

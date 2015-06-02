@@ -2,33 +2,30 @@
     "items": [
         {
             "Google": [
-                { "Qantas":         "http://hotel.qantas.com.au/search" },
-                { "Jetstar":        "http://hotels.jetstar.com/search" }
+                { "Mail":         "https://mail.google.com/" },
+                { "Maps":         "https://www.google.com.au/maps" }
             ]
         },
         {
-            "RJMetrics":            "https://dashboard.rjmetrics.com/"
+            "Facebook":           "https://facebook.com/"
         },
 
         {
             "Yahoo!": [
-                { "Qantas":         "http://qantas.staging.jqdev.net/search" },
-                { "Jetstar":        "http://jetstar.staging.jqdev.net/search" },
+                { "Mail":         "https://au.mail.yahoo.com/" },
+                { "Finance":      "https://au.finance.yahoo.com/" },
             ]
         },
         "-----",
         {
-            "RJMetrics":            "https://dashboard.rjmetrics.com/"
+            "Twitter":            "https://twitter.com/"
         },
         {
-            "AWS":                  "https://console.aws.amazon.com/console/home"
+            "Tumblr":             "https://www.tumblr.com/"
         },
         "-----",
         {
-            "Okta":                 "https://hooroo.okta.com"
-        },
-        {
-            "Hooroo Wiki":          "https://hooroo-wiki.atlassian.net/wiki/"
+            "Github":             "https://github.com/"
         }
     ]
 }

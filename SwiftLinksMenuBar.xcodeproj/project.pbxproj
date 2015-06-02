@@ -38,7 +38,6 @@
 		886EE0561B1753FE0086ED71 /* SwiftLinksMenuBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLinksMenuBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		886EE05B1B1753FE0086ED71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		886EE05C1B1753FE0086ED71 /* SwiftLinksMenuBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLinksMenuBarTests.swift; sourceTree = "<group>"; };
-		886EE0661B1754780086ED71 /* SwiftLinksMenuBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SwiftLinksMenuBar.entitlements; sourceTree = "<group>"; };
 		886EE0691B17570E0086ED71 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		88E3E37E1B175F0300A7B07D /* links.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = links.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				88E3E37E1B175F0300A7B07D /* links.json */,
-				886EE0661B1754780086ED71 /* SwiftLinksMenuBar.entitlements */,
 				886EE04B1B1753FD0086ED71 /* AppDelegate.swift */,
 				886EE04D1B1753FD0086ED71 /* Images.xcassets */,
 				886EE04F1B1753FD0086ED71 /* MainMenu.xib */,
